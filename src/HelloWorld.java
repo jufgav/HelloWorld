@@ -22,7 +22,7 @@ public class HelloWorld extends Application {
       public void handle(ActionEvent event) {
         System.out.println("Hello World!");
       }
-    });
+    } );
 
     StackPane root = new StackPane();
     root.getChildren().add(btn);
